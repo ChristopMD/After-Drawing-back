@@ -1,0 +1,184 @@
+import 'package:flutter/material.dart';
+void main() => runApp(const MyApp());
+class MyApp extends StatelessWidget
+{
+    const MyApp({Key? key}) : super(key: key);
+    @override
+    Widget build(BuildContext context)
+    {
+        return MaterialApp
+            (
+            home: Scaffold
+                (
+                appBar: AppBar(),
+                body: Stack
+                    (
+                    children: <Widget>
+                        [
+                        Container
+                            (
+                            alignment: Alignment(0.5080080032348633, -0.5296833515167236),
+                            child: Container
+                                (
+                                child: Image.asset('assets/images/Image.JPG'),
+                                height: 150.0,
+                                width: 150.0,
+                                ),
+                            ),
+                        Container
+                            (
+                            alignment: Alignment(-0.470612108707428, 0.35989677906036377),
+                            child: Container
+                                (
+                                child: Image.asset('assets/images/Image.JPG'),
+                                height: 150.0,
+                                width: 150.0,
+                                ),
+                            ),
+                        Container
+                            (
+                            alignment: Alignment(-0.47320079803466797, -0.5284593105316162),
+                            child: Container
+                                (
+                                child: Image.asset('assets/images/Image.JPG'),
+                                height: 150.0,
+                                width: 150.0,
+                                ),
+                            ),
+                        Container
+                            (
+                            alignment: Alignment(0.5064029693603516, 0.3597806692123413),
+                            child: Container
+                                (
+                                child: Image.asset('assets/images/Image.JPG'),
+                                height: 150.0,
+                                width: 150.0,
+                                ),
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(0.45180773735046387, -0.10024046897888184),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(-0.5475533604621887, -0.09886825084686279),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(0.3310760259628296, -0.18838632106781006),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(-0.6660653948783875, -0.18846380710601807),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(0.33562278747558594, 0.6977143287658691),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(-0.6598677635192871, 0.6979876756668091),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(-0.6042567789554596, 0.7623230218887329),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(0.3769514560699463, 0.7621053457260132),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            child: Align
+                                (
+                                alignment: Alignment(-0.6005453169345856, -0.8416610360145569),
+                                child: Text
+                                    (
+                                    'Some text here',
+                                    style: TextStyle(),
+                                    )
+                                )
+                            ),
+                        Container
+                            (
+                            alignment: Alignment(-0.039495110511779785, -0.8458392471075058),
+                            padding: const EdgeInsets.all(10),
+                            child: TextField
+                                (
+                                decoration: const InputDecoration
+                                    (
+                                    border: OutlineInputBorder(),
+                                    labelText: 'Input Text',
+                                    )
+                                )
+                            ),
+                        ]
+                    )
+                )
+            );
+    }
+}
